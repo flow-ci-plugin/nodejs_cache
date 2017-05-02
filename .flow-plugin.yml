@@ -2,10 +2,7 @@
 name: nodejs_cache
 version: 0.0.1
 language: nodejs
-description: |
-  本插件主要是缓存`npm install`的包，原理是缓存项目下的node_modules的文件夹，因为`npm install`安装时有些包比较大安装很耗时
-- 注意事项
-  因为缓存的是项目的node_modules文件夹，假如`npm install`的包更新了出现安装不上的情况请清空缓存
+description: 
 public: true
 tags:
   - nodejs
